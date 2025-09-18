@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { createClient } from '@/lib/supabaseClient';
+import { createClient } from '../../lib/supabaseClient';
 
 type Row = { habit_id: string; title: string; completion_rate_pct: number; completed_sessions: number; total_sessions: number; };
 
